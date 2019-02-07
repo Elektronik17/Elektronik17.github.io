@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    font-size: 30px;
+    background: linear-gradient(45deg, #7e8986, #a7a29f, #570eea);
+    background-size: 500% 500%;
+    -webkit-animation:  Gradient 20s ease infinite;
+    -moz-animation: Gradient 20s ease infinite;
+    animation:  Gradient 20s ease infinite;
+}
+
+.data {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin: 250px auto;
+    margin-bottom: 65px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.git {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contacts {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts div {
+    margin: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 650px) {
+    .data {
+        margin: 100px auto;
+    }
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts div {
+        margin: 0px;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: normal;
+    transition: all 0.5s;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    color: rgb(250, 238, 68);
+} 
+
+    
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
